@@ -1,0 +1,313 @@
+Mar  7 10:52:25 workstation systemd-logind[595]: New seat seat0.
+Mar  7 10:52:25 workstation systemd-logind[595]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 10:52:25 workstation systemd-logind[595]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 10:52:25 workstation systemd-logind[595]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 10:52:25 workstation gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 10:52:25 workstation systemd-logind[595]: New session c1 of user gdm.
+Mar  7 10:52:25 workstation systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 10:52:26 workstation gnome-keyring-daemon[837]: couldn't access control socket: /run/user/120/keyring/control: No such file or directory
+Mar  7 10:52:28 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 10:52:30 workstation systemd-logind[595]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 10:52:30 workstation systemd-logind[595]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 10:52:30 workstation systemd-logind[595]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 10:52:36 workstation gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=rose
+Mar  7 10:52:43 workstation gdm-password]: pam_unix(gdm-password:session): session opened for user rose by (uid=0)
+Mar  7 10:52:43 workstation systemd: pam_unix(systemd-user:session): session opened for user rose by (uid=0)
+Mar  7 10:52:43 workstation systemd-logind[595]: New session 2 of user rose.
+Mar  7 10:52:52 workstation dbus-daemon[529]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 10:57:26 workstation systemd-logind[635]: New seat seat0.
+Mar  7 10:57:26 workstation systemd-logind[635]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 10:57:26 workstation systemd-logind[635]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 10:57:26 workstation systemd-logind[635]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 10:57:27 workstation gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 10:57:27 workstation systemd-logind[635]: New session c1 of user gdm.
+Mar  7 10:57:27 workstation systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 10:57:29 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 10:57:47 workstation gdm-password]: pam_unix(gdm-password:session): session opened for user rose by (uid=0)
+Mar  7 10:57:47 workstation systemd-logind[635]: New session 2 of user rose.
+Mar  7 10:57:47 workstation systemd: pam_unix(systemd-user:session): session opened for user rose by (uid=0)
+Mar  7 10:57:48 workstation gnome-keyring-daemon[1097]: The Secret Service was already initialized
+Mar  7 10:57:49 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 10:57:53 workstation dbus-daemon[598]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 10:58:13 workstation sudo:     rose : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/rose ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  7 10:58:32 workstation polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:root to gain TEMPORARY authorization for action org.gnome.controlcenter.user-accounts.administration for unix-process:1778:15718 [gnome-control-center --overview] (owned by unix-user:rose)
+Mar  7 10:59:50 workstation accounts-daemon: request by system-bus-name::1.105 [gnome-control-center --overview pid:1778 uid:1000]: enable automatic login for user 'rose' (1000)
+Mar  7 10:59:51 workstation accounts-daemon: request by system-bus-name::1.105 [gnome-control-center --overview pid:1778 uid:1000]: disable automatic login for user 'rose' (1000)
+Mar  7 11:01:01 workstation accounts-daemon: request by system-bus-name::1.105 [gnome-control-center --overview pid:1778 uid:1000]: create user 'roseann'
+Mar  7 11:01:01 workstation groupadd[2613]: group added to /etc/group: name=roseann, GID=1001
+Mar  7 11:01:01 workstation groupadd[2613]: group added to /etc/gshadow: name=roseann
+Mar  7 11:01:01 workstation groupadd[2613]: new group: name=roseann, GID=1001
+Mar  7 11:01:01 workstation useradd[2617]: new user: name=roseann, UID=1001, GID=1001, home=/home/roseann, shell=/bin/bash
+Mar  7 11:01:01 workstation chfn[2625]: changed user 'roseann' information
+Mar  7 11:01:01 workstation gpasswd[2630]: user roseann added by root to group sudo
+Mar  7 11:01:01 workstation accounts-daemon: request by system-bus-name::1.105 [gnome-control-center --overview pid:1778 uid:1000]: set password and hint of user 'roseann' (1001)
+Mar  7 11:01:01 workstation usermod[2634]: change user 'roseann' password
+Mar  7 11:01:05 workstation accounts-daemon: request by system-bus-name::1.105 [gnome-control-center --overview pid:1778 uid:1000]: enable automatic login for user 'roseann' (1001)
+Mar  7 11:01:13 workstation accounts-daemon: request by system-bus-name::1.105 [gnome-control-center --overview pid:1778 uid:1000]: disable automatic login for user 'roseann' (1001)
+Mar  7 11:01:13 workstation accounts-daemon: request by system-bus-name::1.105 [gnome-control-center --overview pid:1778 uid:1000]: disable automatic login for user 'roseann' (1001)
+Mar  7 11:01:24 workstation systemd-logind[635]: System is rebooting.
+Mar  7 11:01:33 workstation systemd-logind[571]: New seat seat0.
+Mar  7 11:01:33 workstation systemd-logind[571]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 11:01:33 workstation systemd-logind[571]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 11:01:33 workstation systemd-logind[571]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 11:01:33 workstation gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 11:01:33 workstation systemd-logind[571]: New session c1 of user gdm.
+Mar  7 11:01:33 workstation systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 11:01:35 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 11:01:44 workstation gdm-password]: pam_unix(gdm-password:session): session opened for user roseann by (uid=0)
+Mar  7 11:01:44 workstation systemd: pam_unix(systemd-user:session): session opened for user roseann by (uid=0)
+Mar  7 11:01:44 workstation systemd-logind[571]: New session 2 of user roseann.
+Mar  7 11:01:45 workstation gnome-keyring-daemon[1092]: The Secret Service was already initialized
+Mar  7 11:01:46 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 11:01:59 workstation dbus-daemon[572]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 11:02:08 workstation polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:roseann to gain TEMPORARY authorization for action org.gnome.controlcenter.user-accounts.administration for unix-process:1651:2259 [gnome-control-center --overview] (owned by unix-user:roseann)
+Mar  7 11:02:25 workstation accounts-daemon: request by system-bus-name::1.102 [gnome-control-center --overview pid:1651 uid:1001]: delete user 'rose' (1000)
+Mar  7 11:02:25 workstation userdel[1742]: delete user 'rose'
+Mar  7 11:02:25 workstation userdel[1742]: removed group 'rose' owned by 'rose'
+Mar  7 11:02:25 workstation userdel[1742]: removed shadow group 'rose' owned by 'rose'
+Mar  7 11:02:48 workstation pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1001)
+Mar  7 11:02:48 workstation pkexec[1825]: roseann: Executing command [USER=root] [TTY=unknown] [CWD=/home/roseann] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  7 11:02:56 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  7 11:02:56 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:03:04 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:03:08 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  7 11:03:08 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:03:12 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:03:28 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar  7 11:03:28 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:06:53 workstation dbus-daemon[572]: [system] Failed to activate service 'org.freedesktop.fwupd': timed out (service_start_timeout=25000ms)
+Mar  7 11:09:33 workstation systemd-logind[571]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 11:09:33 workstation systemd-logind[571]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 11:09:33 workstation systemd-logind[571]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 11:09:37 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 11:09:37 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 11:09:37 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 11:09:37 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.25 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 11:10:05 workstation useradd[7998]: new user: name=cups-pk-helper, UID=121, GID=116, home=/home/cups-pk-helper, shell=/usr/sbin/nologin
+Mar  7 11:10:05 workstation usermod[8004]: change user 'cups-pk-helper' password
+Mar  7 11:10:05 workstation chage[8009]: changed password expiry for cups-pk-helper
+Mar  7 11:10:05 workstation chfn[8012]: changed user 'cups-pk-helper' information
+Mar  7 11:11:10 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:11:30 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  7 11:11:30 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:11:33 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:11:35 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Mar  7 11:11:35 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:11:36 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:11:37 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/bin/apt update
+Mar  7 11:11:37 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:11:41 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:12:43 workstation pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1001)
+Mar  7 11:12:43 workstation pkexec[22455]: roseann: Executing command [USER=root] [TTY=unknown] [CWD=/home/roseann] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Mar  7 11:12:59 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+Mar  7 11:12:59 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:13:06 workstation useradd[22691]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Mar  7 11:13:06 workstation usermod[22697]: change user 'sshd' password
+Mar  7 11:13:06 workstation chage[22702]: changed password expiry for sshd
+Mar  7 11:13:07 workstation sshd[22785]: Server listening on 0.0.0.0 port 22.
+Mar  7 11:13:07 workstation sshd[22785]: Server listening on :: port 22.
+Mar  7 11:13:11 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:14:53 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/sbin/service ssh start
+Mar  7 11:14:53 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:14:54 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:15:04 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/systemctl status ssh
+Mar  7 11:15:04 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:15:32 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:15:38 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/sbin/ufw allow ssh
+Mar  7 11:15:38 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:15:39 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:15:44 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Mar  7 11:15:44 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:15:45 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:15:50 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/sbin/ufw status
+Mar  7 11:15:50 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:15:50 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:16:39 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/bin/apt install net-tools
+Mar  7 11:16:39 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:16:43 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:17:01 workstation CRON[24701]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  7 11:17:01 workstation CRON[24701]: pam_unix(cron:session): session closed for user root
+Mar  7 11:21:45 workstation systemd-logind[722]: New seat seat0.
+Mar  7 11:21:45 workstation systemd-logind[722]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 11:21:45 workstation systemd-logind[722]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 11:21:45 workstation systemd-logind[722]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 11:21:46 workstation sshd[837]: Server listening on 0.0.0.0 port 22.
+Mar  7 11:21:46 workstation sshd[837]: Server listening on :: port 22.
+Mar  7 11:21:46 workstation gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 11:21:46 workstation systemd-logind[722]: New session c1 of user gdm.
+Mar  7 11:21:46 workstation systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 11:21:47 workstation sshd[837]: Received SIGHUP; restarting.
+Mar  7 11:21:47 workstation sshd[837]: Server listening on 0.0.0.0 port 22.
+Mar  7 11:21:47 workstation sshd[837]: Server listening on :: port 22.
+Mar  7 11:21:47 workstation sshd[837]: Received SIGHUP; restarting.
+Mar  7 11:21:47 workstation sshd[837]: Server listening on 0.0.0.0 port 22.
+Mar  7 11:21:47 workstation sshd[837]: Server listening on :: port 22.
+Mar  7 11:21:48 workstation sshd[837]: Received SIGHUP; restarting.
+Mar  7 11:21:48 workstation sshd[837]: Server listening on 0.0.0.0 port 22.
+Mar  7 11:21:48 workstation sshd[837]: Server listening on :: port 22.
+Mar  7 11:21:49 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 11:21:50 workstation sshd[837]: Received SIGHUP; restarting.
+Mar  7 11:21:50 workstation sshd[837]: Server listening on 0.0.0.0 port 22.
+Mar  7 11:21:50 workstation sshd[837]: Server listening on :: port 22.
+Mar  7 11:22:13 workstation dbus-daemon[735]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 11:22:01 workstation gdm-password]: pam_unix(gdm-password:session): session opened for user roseann by (uid=0)
+Mar  7 11:22:01 workstation systemd: pam_unix(systemd-user:session): session opened for user roseann by (uid=0)
+Mar  7 11:22:01 workstation systemd-logind[722]: New session 2 of user roseann.
+Mar  7 11:22:03 workstation polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 11:22:27 workstation dbus-daemon[735]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 11:22:29 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/nano /etc/hostname
+Mar  7 11:22:29 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:22:48 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:22:58 workstation sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar  7 11:22:58 workstation sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:23:41 workstation sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:23:44 workstation systemd-logind[722]: System is rebooting.
+Mar  7 11:23:44 workstation sshd[837]: Received signal 15; terminating.
+Mar  7 11:24:03 server1 systemd-logind[768]: New seat seat0.
+Mar  7 11:24:03 server1 systemd-logind[768]: Watching system buttons on /dev/input/event0 (Power Button)
+Mar  7 11:24:03 server1 systemd-logind[768]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar  7 11:24:03 server1 systemd-logind[768]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Mar  7 11:24:04 server1 sshd[879]: Server listening on 0.0.0.0 port 22.
+Mar  7 11:24:04 server1 sshd[879]: Server listening on :: port 22.
+Mar  7 11:24:04 server1 gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Mar  7 11:24:04 server1 systemd-logind[768]: New session c1 of user gdm.
+Mar  7 11:24:04 server1 systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Mar  7 11:24:04 server1 sshd[879]: Received SIGHUP; restarting.
+Mar  7 11:24:04 server1 sshd[879]: Server listening on 0.0.0.0 port 22.
+Mar  7 11:24:04 server1 sshd[879]: Server listening on :: port 22.
+Mar  7 11:24:05 server1 sshd[879]: Received SIGHUP; restarting.
+Mar  7 11:24:05 server1 sshd[879]: Server listening on 0.0.0.0 port 22.
+Mar  7 11:24:05 server1 sshd[879]: Server listening on :: port 22.
+Mar  7 11:24:06 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.34 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 11:24:07 server1 sshd[879]: Received SIGHUP; restarting.
+Mar  7 11:24:07 server1 sshd[879]: Server listening on 0.0.0.0 port 22.
+Mar  7 11:24:07 server1 sshd[879]: Server listening on :: port 22.
+Mar  7 11:24:08 server1 sshd[879]: Received SIGHUP; restarting.
+Mar  7 11:24:08 server1 sshd[879]: Server listening on 0.0.0.0 port 22.
+Mar  7 11:24:08 server1 sshd[879]: Server listening on :: port 22.
+Mar  7 11:24:30 server1 dbus-daemon[726]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 11:25:52 server1 gdm-password]: pam_unix(gdm-password:session): session opened for user roseann by (uid=0)
+Mar  7 11:25:52 server1 systemd-logind[768]: New session 2 of user roseann.
+Mar  7 11:25:52 server1 systemd: pam_unix(systemd-user:session): session opened for user roseann by (uid=0)
+Mar  7 11:25:54 server1 polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_SG.UTF-8)
+Mar  7 11:26:18 server1 dbus-daemon[726]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Mar  7 11:32:34 server1 sudo:  roseann : TTY=pts/0 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/nano /etc/hosts
+Mar  7 11:32:34 server1 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Mar  7 11:32:57 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 11:41:00 server1 sshd[2096]: Connection closed by authenticating user roseann 192.168.56.124 port 34126 [preauth]
+Mar  7 11:41:00 server1 sshd[2098]: Connection closed by authenticating user roseann 192.168.56.124 port 55648 [preauth]
+Mar  7 11:41:04 server1 sshd[2100]: Accepted password for roseann from 192.168.56.124 port 55654 ssh2
+Mar  7 11:41:04 server1 sshd[2100]: pam_unix(sshd:session): session opened for user roseann by (uid=0)
+Mar  7 11:41:04 server1 systemd-logind[768]: New session 4 of user roseann.
+Mar  7 11:41:04 server1 sshd[2170]: Received disconnect from 192.168.56.124 port 55654:11: disconnected by user
+Mar  7 11:41:04 server1 sshd[2170]: Disconnected from user roseann 192.168.56.124 port 55654
+Mar  7 11:41:04 server1 sshd[2100]: pam_unix(sshd:session): session closed for user roseann
+Mar  7 11:41:05 server1 systemd-logind[768]: Removed session 4.
+Mar  7 11:41:30 server1 sshd[2189]: Accepted publickey for roseann from 192.168.56.124 port 58840 ssh2: RSA SHA256:EXO9WieYKGYSBM9hL4ADx2s2iQRZ0HYYcPH3H5+Lmbc
+Mar  7 11:41:30 server1 sshd[2189]: pam_unix(sshd:session): session opened for user roseann by (uid=0)
+Mar  7 11:41:30 server1 systemd-logind[768]: New session 5 of user roseann.
+Mar  7 11:43:54 server1 sshd[2234]: Received disconnect from 192.168.56.124 port 58840:11: disconnected by user
+Mar  7 11:43:54 server1 sshd[2234]: Disconnected from user roseann 192.168.56.124 port 58840
+Mar  7 11:43:54 server1 sshd[2189]: pam_unix(sshd:session): session closed for user roseann
+Mar  7 11:43:54 server1 systemd-logind[768]: Removed session 5.
+Mar  7 11:47:32 server1 sshd[2262]: Connection closed by authenticating user roseann 192.168.56.124 port 56420 [preauth]
+Mar  7 11:47:32 server1 sshd[2264]: Connection closed by authenticating user roseann 192.168.56.124 port 56426 [preauth]
+Mar  7 11:47:32 server1 sshd[2266]: Accepted publickey for roseann from 192.168.56.124 port 56432 ssh2: RSA SHA256:EXO9WieYKGYSBM9hL4ADx2s2iQRZ0HYYcPH3H5+Lmbc
+Mar  7 11:47:32 server1 sshd[2266]: pam_unix(sshd:session): session opened for user roseann by (uid=0)
+Mar  7 11:47:32 server1 systemd-logind[768]: New session 6 of user roseann.
+Mar  7 11:47:32 server1 sshd[2311]: Received disconnect from 192.168.56.124 port 56432:11: disconnected by user
+Mar  7 11:47:32 server1 sshd[2311]: Disconnected from user roseann 192.168.56.124 port 56432
+Mar  7 11:47:32 server1 sshd[2266]: pam_unix(sshd:session): session closed for user roseann
+Mar  7 11:47:32 server1 systemd-logind[768]: Removed session 6.
+Mar  7 11:47:50 server1 sshd[2316]: Accepted publickey for roseann from 192.168.56.124 port 55872 ssh2: RSA SHA256:at5qxCzO/dtuBhw6ROFP2xhWFeqpOnRQXL9wlffLDzU
+Mar  7 11:47:50 server1 sshd[2316]: pam_unix(sshd:session): session opened for user roseann by (uid=0)
+Mar  7 11:47:50 server1 systemd-logind[768]: New session 7 of user roseann.
+Mar  7 11:48:39 server1 sshd[2361]: Received disconnect from 192.168.56.124 port 55872:11: disconnected by user
+Mar  7 11:48:39 server1 sshd[2361]: Disconnected from user roseann 192.168.56.124 port 55872
+Mar  7 11:48:39 server1 sshd[2316]: pam_unix(sshd:session): session closed for user roseann
+Mar  7 11:48:39 server1 systemd-logind[768]: Removed session 7.
+Mar  7 12:17:01 server1 CRON[3098]: pam_unix(cron:session): session opened for user root by (uid=0)
+Mar  7 12:17:01 server1 CRON[3098]: pam_unix(cron:session): session closed for user root
+Mar  7 12:23:39 server1 sshd[3121]: Accepted publickey for roseann from 192.168.56.124 port 43476 ssh2: RSA SHA256:EXO9WieYKGYSBM9hL4ADx2s2iQRZ0HYYcPH3H5+Lmbc
+Mar  7 12:23:39 server1 sshd[3121]: pam_unix(sshd:session): session opened for user roseann by (uid=0)
+Mar  7 12:23:39 server1 systemd-logind[768]: New session 9 of user roseann.
+Mar  7 12:23:39 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-esaouiiozrjgkzicxeyfuwawxnnfzbjb; /usr/bin/python /home/roseann/.ansible/tmp/ansible-tmp-1709785419.24-180153568895317/setup.py
+Mar  7 12:23:39 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:23:39 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:24:39 server1 sshd[3166]: Received disconnect from 192.168.56.124 port 43476:11: disconnected by user
+Mar  7 12:24:39 server1 sshd[3166]: Disconnected from user roseann 192.168.56.124 port 43476
+Mar  7 12:24:39 server1 sshd[3121]: pam_unix(sshd:session): session closed for user roseann
+Mar  7 12:24:39 server1 systemd-logind[768]: Removed session 9.
+Mar  7 12:24:48 server1 sshd[3188]: Accepted publickey for roseann from 192.168.56.124 port 58736 ssh2: RSA SHA256:EXO9WieYKGYSBM9hL4ADx2s2iQRZ0HYYcPH3H5+Lmbc
+Mar  7 12:24:48 server1 sshd[3188]: pam_unix(sshd:session): session opened for user roseann by (uid=0)
+Mar  7 12:24:48 server1 systemd-logind[768]: New session 10 of user roseann.
+Mar  7 12:24:48 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wfhurcxuibbrmkdwlowpwgynaonvhmxi; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709785488.69-280692077095856/setup.py
+Mar  7 12:24:48 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:24:49 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:24:49 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-cjbqkmubtvycfxverasocxtfccweoyxy; sudo dpkg --configure -a
+Mar  7 12:24:49 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:24:49 server1 sudo:     root : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  7 12:24:49 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:24:49 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:24:49 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:24:49 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ussmlwnontqnpjorlvsepjuyckcmflzk; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709785489.53-22015382474337/apt.py
+Mar  7 12:24:49 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:24:50 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:24:50 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-tstycfjlhwetvzwnhfydcevyedbcsgut; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709785490.62-275533598600676/setup.py
+Mar  7 12:24:50 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:24:50 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:24:51 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qsgppatklcepjplyiitmxrefcsesvlei; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709785491.08-233677489912356/slurp.py
+Mar  7 12:24:51 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:24:51 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:24:51 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-sbyjpjoozubywdhmoyyzpxnhsgicpmdc; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709785491.36-29733914605360/slurp.py
+Mar  7 12:24:51 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:24:51 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:25:51 server1 sshd[3233]: Received disconnect from 192.168.56.124 port 58736:11: disconnected by user
+Mar  7 12:25:51 server1 sshd[3233]: Disconnected from user roseann 192.168.56.124 port 58736
+Mar  7 12:25:51 server1 sshd[3188]: pam_unix(sshd:session): session closed for user roseann
+Mar  7 12:25:51 server1 systemd-logind[768]: Removed session 10.
+Mar  7 12:33:36 server1 sshd[3434]: Accepted publickey for roseann from 192.168.56.124 port 48706 ssh2: RSA SHA256:EXO9WieYKGYSBM9hL4ADx2s2iQRZ0HYYcPH3H5+Lmbc
+Mar  7 12:33:36 server1 sshd[3434]: pam_unix(sshd:session): session opened for user roseann by (uid=0)
+Mar  7 12:33:36 server1 systemd-logind[768]: New session 11 of user roseann.
+Mar  7 12:33:36 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-bjoogzakoyhyoppelbnyptvfpiaxfemh; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709786016.17-164483149497298/setup.py
+Mar  7 12:33:36 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:33:36 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:33:37 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-yatfexkjvdlafzjimmytvjtumwjgzvfb; sudo dpkg --configure -a
+Mar  7 12:33:37 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:33:37 server1 sudo:     root : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/usr/bin/dpkg --configure -a
+Mar  7 12:33:37 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:33:37 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:33:37 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:33:37 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-depnffaoyccmovqpclghqrgesvpcfxbr; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709786017.13-72524101792438/apt.py
+Mar  7 12:33:37 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:33:40 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:33:40 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-wpsqgoyeqzpeefwpesukjjytqdxlqvba; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709786020.55-244324774245102/setup.py
+Mar  7 12:33:40 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:33:40 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:33:41 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qvhljjjsqpsntxmhspkmyquhlemzesed; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709786021.01-121987018912582/slurp.py
+Mar  7 12:33:41 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:33:41 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:33:41 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-ismfylxicmnxuvoogseryjxotajhdfeh; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709786021.27-113209144343305/slurp.py
+Mar  7 12:33:41 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:33:41 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:34:41 server1 sshd[3483]: Received disconnect from 192.168.56.124 port 48706:11: disconnected by user
+Mar  7 12:34:41 server1 sshd[3483]: Disconnected from user roseann 192.168.56.124 port 48706
+Mar  7 12:34:41 server1 systemd-logind[768]: Removed session 11.
+Mar  7 12:34:41 server1 sshd[3434]: pam_unix(sshd:session): session closed for user roseann
+Mar  7 12:38:22 server1 sshd[4148]: Accepted publickey for roseann from 192.168.56.124 port 59564 ssh2: RSA SHA256:EXO9WieYKGYSBM9hL4ADx2s2iQRZ0HYYcPH3H5+Lmbc
+Mar  7 12:38:22 server1 sshd[4148]: pam_unix(sshd:session): session opened for user roseann by (uid=0)
+Mar  7 12:38:22 server1 systemd-logind[768]: New session 12 of user roseann.
+Mar  7 12:38:22 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-qpmbyjvlcpfhxfknbkobuynsmkcdpywe; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709786302.39-9999238940326/setup.py
+Mar  7 12:38:22 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:38:23 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:38:23 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-oihgcspzcumkejqvegfngmtykclkglrn; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709786303.17-34962755070023/apt.py
+Mar  7 12:38:23 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:38:25 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:38:25 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-rtezwlbfnlblnduainvlzydxbvskfflw; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709786305.18-186546366377326/setup.py
+Mar  7 12:38:25 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:38:25 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:38:25 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-lhvwcridhfwbmmjgexznholdmgorijgs; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709786305.62-80273420168776/slurp.py
+Mar  7 12:38:25 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
+Mar  7 12:38:25 server1 sudo: pam_unix(sudo:session): session closed for user root
+Mar  7 12:38:26 server1 sudo:  roseann : TTY=pts/1 ; PWD=/home/roseann ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-frmlfsqivycemyhbcouqgwlczgdxmpho; /usr/bin/python3 /home/roseann/.ansible/tmp/ansible-tmp-1709786305.88-57139065035548/slurp.py
+Mar  7 12:38:26 server1 sudo: pam_unix(sudo:session): session opened for user root by roseann(uid=0)
